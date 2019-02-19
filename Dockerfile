@@ -2,10 +2,10 @@
 FROM node:10
 
 # Set the working directory in the container to /app
-WORKDIR /app
+WORKDIR /app/m1
 
 # Copy the current directory contents into the container at /app
-ADD ./portcart/ /app
+ADD ./portcart/ /app/m1
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
